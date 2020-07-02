@@ -92,4 +92,4 @@ handleInputChange = (e) =>{
     }
 }
  
-export default Login;
+export default connect()(Login);
