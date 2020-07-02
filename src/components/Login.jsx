@@ -5,8 +5,6 @@ import { Form, Button } from "react-bootstrap";
 import { validateFields } from "../utils/common";
 
 
-
-
 class Login extends Component {
     state = { 
         emai: '',
@@ -92,4 +90,4 @@ handleInputChange = (e) =>{
     }
 }
  
-export default Login;
+export default connect()(Login);
