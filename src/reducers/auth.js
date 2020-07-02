@@ -1,4 +1,4 @@
-import { SIGN_IN, SIGN_IN, SIGN_OUT } from './../utils/constants';
+import { SIGN_IN, SIGN_OUT } from "./../utils/constants";
 
 const authReducer = (state = {}, action)=>{
     switch (action.type){
